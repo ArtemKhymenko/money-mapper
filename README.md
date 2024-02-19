@@ -8,6 +8,9 @@ Steps:
     - save to Postgres(id, title, price per kilo/item)
     - retreive from db via RESTapi
         - create api
+        - models
+        - views
+        - controller
     - frontend to show data
 - User can create own set of goods
 
