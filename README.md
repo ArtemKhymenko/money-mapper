@@ -9,7 +9,7 @@ Steps:
     - retreive from db via RESTapi
         - create api
         - models
-        - views
+        - views (Endpoints)
         - controller
     - frontend to show data
 - User can create own set of goods
