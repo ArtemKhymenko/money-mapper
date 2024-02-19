@@ -10,7 +10,7 @@ Steps:
         - create api
         - models
         - views
-        - controller
+        - controller(services)
     - frontend to show data
 - User can create own set of goods
 
