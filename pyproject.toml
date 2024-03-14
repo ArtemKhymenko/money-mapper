@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "money-mapper"
+version = "0.1.0"
+description = ""
+authors = ["ArtemKhymenko <ak@workconsult.ua>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.27"
+fastapi = "^0.109.2"
+pydantic = "^2.6.1"
+uvicorn = "^0.27.1"
+alembic = "^1.13.1"
+pydantic-settings = "^2.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
